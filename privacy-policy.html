@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShadowAI Guard Privacy Policy</title>
+  <style>
+    body { max-width: 46rem; margin: 2rem auto; padding: 0 1.25rem; color: #17303b; font: 1rem/1.6 system-ui, sans-serif; }
+    h1, h2 { line-height: 1.2; }
+    h2 { margin-top: 2rem; }
+    a { color: #08766e; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>ShadowAI Guard Privacy Policy</h1>
+    <p>Effective <time datetime="2026-11-03">3 November 2026</time>. This policy covers the current ShadowAI Guard browser extension. It does not describe any future web app or team service.</p>
+
+    <h2>What the extension accesses</h2>
+    <p>On the supported AI chat websites, ShadowAI Guard reads the text in a prompt when you try to send it. The prompt may contain personal information, payment or bank details, authentication secrets, or other text you entered. The extension checks that text for known patterns and displays masked matches and a risk score.</p>
+    <p>If you select <strong>Restore values</strong>, the extension reads text nodes on the current page to find placeholders and replaces them with the original values. It does not read your browser history, contacts, or files.</p>
+
+    <h2>How the data is used and stored</h2>
+    <p>Scanning and redaction run in your browser. When you choose <strong>Redact</strong>, the extension replaces detected values in the prompt with placeholders. The placeholder-to-original mapping is kept in the page's memory so the extension can restore values in visible replies. The mapping is not saved to browser storage and is discarded when the page fully reloads or the tab closes.</p>
+    <p>The current extension has no account, analytics, advertising, or extension-initiated network requests. It does not send prompt text, detected values, or usage events to the developer or another service.</p>
+
+    <h2>What the AI website can receive</h2>
+    <p>The AI website operates independently of ShadowAI Guard and may process a draft before you press Send. If you choose <strong>Send anyway</strong>, the website can receive the original prompt. If you redact and then send, the website receives the edited prompt, including any text the extension did not detect. If you choose <strong>Restore values</strong>, original values are written into the website's page, where the website's own scripts may access them. Consult that website's privacy policy for its practices.</p>
+
+    <h2>Your choices</h2>
+    <p>You can cancel the warning, redact detected values, or send the prompt anyway. Reloading the page or closing the tab clears the extension's in-memory restore mapping. Uninstalling the extension stops future scanning. These actions do not delete data already received by an AI website.</p>
+
+    <h2>Limited use</h2>
+    <p>ShadowAI Guard uses browser-accessible data only to scan and redact prompts and restore placeholders as described here. It does not sell data, use it for advertising, or permit the developer to read your prompts. Its use of information received from browser APIs follows the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+
+    <h2>Changes and contact</h2>
+    <p>If the extension's data practices change, this policy will be updated before the changed version is released, with additional notice where required. For privacy questions, contact <a href="mailto:islam.safikul2501@gmail.com">islam.safikul2501@gmail.com</a>.</p>
+  </main>
+</body>
+</html>
